@@ -1,0 +1,106 @@
+.homePage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .left{
+        width: 50%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        &_text{
+            // margin-bottom: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+            
+    
+        }
+    }
+    .right{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    margin-top: 20px;
+    a{
+        text-decoration: none;
+        margin-inline: 7px;
+
+        
+    }
+}
+.Btn{
+    margin-top: 25px;
+    display: flex;
+    width: 110%;
+    justify-content: center;
+    align-items: center;
+     a{
+        text-decoration: none;
+     }
+}
+.btn_contact button {
+    cursor: pointer;
+    padding: 10px 60px;
+    font-size: 1.5rem;
+    background: transparent;
+    color: var(--yellow-theme-main-color);
+    border: 1.5px solid var(--yellow-theme-main-color);
+    border-radius: 4px;
+    font-weight: 500;
+    margin-inline-end: 5px;
+
+}
+.btn_resume button{
+    margin-inline-start: 5px;
+    cursor: pointer;
+    padding: 10px 42px;
+    font-size: 1.5rem;
+    background: transparent;
+    color: var(--yellow-theme-main-color);
+    border: 1.5px solid var(--yellow-theme-main-color);
+    border-radius: 4px;
+    font-weight: 500;
+
+}
+.btn_contact button:hover ,.btn_resume button:hover{
+    color: #ffffff;
+    background-color: var(--yellow-theme-main-color);
+}
+.active{
+    z-index: -1;
+}
+
+@media (max-width:768px){
+    .homePage{
+        flex-direction: column;
+    }
+    .btn_contact button{
+        padding: 8px 47px;
+        font-size: 11px;
+
+    }
+    .btn_resume button{
+        padding: 8px 30px;
+        font-size: 11px;
+
+    }
+
+}

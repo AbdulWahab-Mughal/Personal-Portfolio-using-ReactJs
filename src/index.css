@@ -1,0 +1,31 @@
+/* :root{
+  --yellow-theme-background-color:#1d1d1d;
+  --yellow-theme-main-color:rgb(240, 198, 12);
+  --yellow-theme-sub-text-color:#ffffff;
+  --yellow-theme-nav-background-color:#181818;
+} */
+:root {
+  --yellow-theme-background-color: #d3d3d3;
+  --yellow-theme-main-color: rgb(17, 118, 207);
+  --yellow-theme-sub-text-color: #ffffff;
+  --yellow-theme-nav-background-color: rgb(17, 118, 207);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html{
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body{
+  background-color: var(--yellow-theme-background-color);
+  height: 100%;
+}
+#root{
+  height: 100%;
+}

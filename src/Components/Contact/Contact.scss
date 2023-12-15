@@ -1,0 +1,60 @@
+.contact{
+  position: relative;
+  overflow: hidden;
+
+  .contact__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: min-content;
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      label {
+        margin: 14px 0px;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        color: var(--yellow-theme-main-color);
+        border-bottom: 2px solid var(--yellow-theme-main-color);
+      }
+      input {
+        font-size: 1.5rem;
+        outline: none;
+        padding: 14px 95px;
+        border: 1.7px solid var(--yellow-theme-main-color);
+        border-radius: 5px;
+        color: black;
+        background-color: rgb(153, 173, 192);
+        
+      }
+      textarea {
+        outline: none;
+        background-color: rgb(153, 173, 192);
+        color: black;
+        border: 1.7px solid var(--yellow-theme-main-color);
+        border-radius: 5px;
+        padding: 31px 95px;
+      }
+      button {
+        background: transparent;
+        color: var(--yellow-theme-main-color);
+        border: 1.5px solid var(--yellow-theme-main-color);
+        font-size: 1.5rem;
+        margin-top: 17px;
+        border-radius: 8px;
+        padding: 8px 45px;
+        cursor: pointer;
+      }
+      button:hover{
+        color: #ffffff;
+        background-color: var(--yellow-theme-main-color);
+      }
+    }
+  }
+}
+.active{
+  z-index: -1;
+}
