@@ -110,6 +110,14 @@
 @media (max-width: 520px) {
   .homePage {
     flex-direction: column;
+    .right{
+      margin-top: 30px;
+      width: 100%; 
+       img{
+        height: 250px;
+
+      }
+    }
   }
   .left{
     width: 100%;
@@ -122,12 +130,5 @@
     padding: 8px 30px;
     font-size: 11px;
   }
-  .right {
-    margin-top: 30px;
-    width: 100%;
-     img{
-        height: 200px;
-
-    }
-  }
+  
 }
