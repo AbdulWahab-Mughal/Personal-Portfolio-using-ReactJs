@@ -31,6 +31,7 @@ const Home = () => {
             wrapper="span"
             speed={30}
             style={{
+              width:"100%",
               whiteSpace: "pre-line",
               display: "block",
               fontSize: "4vw",
