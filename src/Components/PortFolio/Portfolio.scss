@@ -122,18 +122,16 @@
     flex-direction: column;
   }
 }
-@media (max-width: 519px) {
-  .portfolio_content{
-    padding: 15px;
-  }
-  .content_filter{
+@media (max-width: 520px) {
+  .portfolio_content 
+  .content_filter {
     display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-  }
-  li{
-    font-size: 5px;
-    padding: 15px 20px;
+    flex-direction: row;
+    margin: 0px 10px;
+ 
+}
+.portfolio_content .content_filter li {
+  font-size: 10px;
   }
   
   .content_cards {
