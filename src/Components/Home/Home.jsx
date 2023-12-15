@@ -23,7 +23,7 @@ const Home = () => {
             sequence={[
               `Hello,\nI'm Abdul Wahab ,\n I'm a  Front End Developer`,
               2000,
-              `Hello,\nI'm Abdul Wahab ,\n I'm a  Front End Developer......`,
+              `Hello,\nI'm Abdul Wahab ,\n I'm a  Front End Developer..`,
               2000,
               // `I'm\n A  Passionate \n Web-Developer....`,
               // 2000,
@@ -33,7 +33,7 @@ const Home = () => {
             style={{
               whiteSpace: "pre-line",
               display: "block",
-              fontSize: "3vw",
+              fontSize: "4vw",
               fontFamily: "revert-layer",
               fontWeight: "600",
               color: "rgb(17, 118, 207)",
@@ -85,7 +85,7 @@ const Home = () => {
             transform: "translateX(0px)",
           }}
         >
-          <img src={Profile} alt="Portfolio Icon" height={"450px"} />
+          <img src={Profile} alt="Portfolio Icon" />
         </Animate>
       </div>
     </section>

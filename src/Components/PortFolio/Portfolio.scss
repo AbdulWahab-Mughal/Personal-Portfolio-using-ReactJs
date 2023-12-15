@@ -112,10 +112,32 @@
   z-index: -1;
 }
 
-@media (max-width:768px){
-  .content_cards{
+@media (min-width: 520px) and (max-width: 768px) {
+  .portfolio_content{
+    padding: 30px;
+  }
+
+  .content_cards {
     display: flex;
     flex-direction: column;
   }
+}
+@media (max-width: 519px) {
+  .portfolio_content{
+    padding: 15px;
+  }
+  .content_filter{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  li{
+    font-size: 5px;
+    padding: 15px 20px;
+  }
   
+  .content_cards {
+    display: flex;
+    flex-direction: column;
+  }
 }

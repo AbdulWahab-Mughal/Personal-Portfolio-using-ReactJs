@@ -1,6 +1,6 @@
-.about{
-    overflow: hidden;
-    position: relative;
+.about {
+  overflow: hidden;
+  position: relative;
 }
 .about_content {
   z-index: -1;
@@ -9,9 +9,8 @@
   padding: 20px;
   width: 100%;
 }
-.active{
+.active {
   z-index: -1;
-  
 }
 .leftSection,
 .rightSection {
@@ -32,7 +31,7 @@
   border-bottom: 1px dashed var(--yellow-theme-main-color);
 }
 .leftSection ul > li {
- list-style: none;
+  list-style: none;
   line-height: 1rem;
   margin-bottom: 15px;
   span.title,
@@ -51,63 +50,111 @@
 .PersonalInfo {
   padding: 20px 0px;
 }
-.rightSection{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .rightContainer{
-        width: 350px;
-        height: 350px;
-        background: radial-gradient(180px,var(--yellow-theme-main-color),transparent 140%);
-        position: relative;
-        border-radius: 50%;
-        border: 1.5px solid var(--yellow-theme-main-color);
-        animation: rotation 10s linear 1s infinite;
-        @keyframes rotation {
-            100%{
-                transform: rotate(360deg);
-            }
-            
-        }
-
-        div:nth-child(1){
-            position: absolute;
-            top: -9%;
-            left: 41%;
-            
-        }
-        div:nth-child(2){
-            position: absolute;
-            right: -8%;
-            top: 41.5%;
-
-        }
-        div:nth-child(3){
-            position: absolute;
-            bottom: -10%;
-            left: 41%;
-
-        }
-        div:nth-child(4){
-            position: absolute;
-            left: -8%;
-            top: 41%;
-
-        }
+.rightSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .rightContainer {
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(
+      180px,
+      var(--yellow-theme-main-color),
+      transparent 140%
+    );
+    position: relative;
+    border-radius: 50%;
+    border: 1.5px solid var(--yellow-theme-main-color);
+    animation: rotation 10s linear 1s infinite;
+    @keyframes rotation {
+      100% {
+        transform: rotate(360deg);
+      }
     }
+
+    div:nth-child(1) {
+      position: absolute;
+      top: -9%;
+      left: 41%;
+    }
+    div:nth-child(2) {
+      position: absolute;
+      right: -8%;
+      top: 41.5%;
+    }
+    div:nth-child(3) {
+      position: absolute;
+      bottom: -10%;
+      left: 41%;
+    }
+    div:nth-child(4) {
+      position: absolute;
+      left: -8%;
+      top: 41%;
+    }
+  }
 }
-@media (max-width:768px){
-  .about_content{
+@media (min-width: 520px) and (max-width: 768px) {
+  .about_content {
     display: flex;
     flex-direction: column-reverse;
   }
   .leftSection,
-.rightSection {
-  width: 100%;
-}
-.rightSection{
-  border-bottom: 1px dotted var(--yellow-theme-main-color);
-  padding: 50px 0px;
-}
+  .rightSection {
+    width: 100%;
+  }
+  .rightSection {
+    border-bottom: 1px dotted var(--yellow-theme-main-color);
+    padding: 50px 0px;
 
+    .rightContainer {
+      width: 300px;
+      height: 300px;
+
+      position: relative;
+      border-radius: 50%;
+
+      div:nth-child(1) {
+        top: -8%;
+      }
+      div:nth-child(2) {
+        right: -9%;
+      }
+    }
+  }
+}
+@media (max-width: 520px) {
+  .about_content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .leftSection,
+  .rightSection {
+    width: 100%;
+  }
+  .rightSection {
+    border-bottom: 1px dotted var(--yellow-theme-main-color);
+    padding: 50px 0px;
+
+    .rightContainer {
+      width: 250px;
+      height: 250px;
+
+      position: relative;
+      border-radius: 50%;
+
+      div:nth-child(1) {
+        top: -10%;
+      }
+      div:nth-child(2) {
+        right: -10%;
+      }
+      div:nth-child(3) {
+        bottom: -11.5%;
+      }
+      div:nth-child(4) {
+        left: -11%;
+      }
+    }
+  }
 }
