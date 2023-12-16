@@ -62,7 +62,7 @@
 
 @media (max-width: 768px) {
   .Nav-content {
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,12 +72,14 @@
     left: -110%;
     opacity: 1;
     transition: all 0.5s ease;
-
+    
     &.active {
+      overflow: clip;
+      height: 100vh;
       background: rgb(17, 118, 207);
       left: 0px;
       opacity: 1;
-      z-index: 20;
+      z-index: 2;
     }
   }
   .Nav-items {
