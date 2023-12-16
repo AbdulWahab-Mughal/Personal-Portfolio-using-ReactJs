@@ -18,11 +18,9 @@ function App() {
   // init funtion of tsParticles
   const handleInit = useCallback(async (main) => {
     await loadFull(main);
-    
   });
 
   return (
-    // <MainSection/>
     <div className="App">
       {/* tsParticles component */}
       {renderParticlesInHome && (
@@ -32,7 +30,6 @@ function App() {
       <Header />
       <div className="mainContent">
         <Router />
-      {/* <MainSection /> */}
       </div>
     </div>
   );
