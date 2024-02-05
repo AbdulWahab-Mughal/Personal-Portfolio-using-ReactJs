@@ -1,1 +1,1 @@
-https://majestic-choux-8fdfff.netlify.app/
+https://portfoilio-wahab-mughal.netlify.app/
