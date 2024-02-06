@@ -5,7 +5,7 @@ import { FaGithub, FaFacebook } from "react-icons/fa";
 import { Animate } from "react-simple-animate";
 import "./Home.scss";
 import Profile from "../../assets/Images/boy.png";
-import Resume from "../../assets/Images/Resume.pdf";
+import Resume from "../../assets/Images/CanvaAWZ.pdf";
 import { GlobalVarContext } from "../Context/GlobalVar";
 
 const Home = () => {
