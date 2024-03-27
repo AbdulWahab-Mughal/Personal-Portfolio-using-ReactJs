@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { useNavigate } from "react-router-dom";
 import { FaGithub, FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { Animate } from "react-simple-animate";
 import "./Home.scss";
 import Profile from "../../assets/Images/boy.png";
@@ -70,6 +71,9 @@ const Home = () => {
             </div>
             <div className="git">
               <a href="https://github.com/AbdulWahab-Mughal" target="_blank"><FaGithub size={28} color=" rgb(17, 118, 207)"/></a>
+            </div>
+            <div className="linkedin">
+              <a href="https://www.linkedin.com/in/abdul-wahab-mughal-45821a237/" target="_blank"><FaLinkedin size={28} color=" rgb(17, 118, 207)"/></a>
             </div>
           </div>
         </Animate>

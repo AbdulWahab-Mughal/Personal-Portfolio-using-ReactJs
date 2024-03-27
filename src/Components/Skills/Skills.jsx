@@ -20,7 +20,7 @@ const SkillsData = [
         percentage: "75",
       },
       {
-        skillName: "ReactJs",
+        skillName: "React Js",
         percentage: "70",
       },
       {
@@ -33,11 +33,11 @@ const SkillsData = [
     label: "Back End",
     data: [
       {
-        skillName: "NodeJs",
+        skillName: "Node Js",
         percentage: "50",
       },
       {
-        skillName: "ExpressJs",
+        skillName: "Express Js",
         percentage: "75",
       },
       {
